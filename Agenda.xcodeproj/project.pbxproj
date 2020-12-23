@@ -18,6 +18,9 @@
 		658B1AA82006456B006D944C /* AutenticacaoLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B1AA72006456B006D944C /* AutenticacaoLocal.swift */; };
 		65F277D520068C1900A8F1BF /* icon_caelum.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F277D420068C1900A8F1BF /* icon_caelum.png */; };
 		65F277D92006901C00A8F1BF /* Pino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F277D82006901C00A8F1BF /* Pino.swift */; };
+		8B11D1732593A64800791A8E /* LigacaoTelefonica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11D1722593A64800791A8E /* LigacaoTelefonica.swift */; };
+		8B11D1762593A8AE00791A8E /* Safari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11D1752593A8AE00791A8E /* Safari.swift */; };
+		8B11D1792593ABB200791A8E /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11D1782593ABB200791A8E /* Filtro.swift */; };
 		8B56819E2592763C00E1F55E /* AlunoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B56819D2592763C00E1F55E /* AlunoAPI.swift */; };
 		8B7F029F2592815F0032D82C /* Repositorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F029E2592815F0032D82C /* Repositorio.swift */; };
 		8B7F02A2259282120032D82C /* AlunoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F02A1259282120032D82C /* AlunoDao.swift */; };
@@ -47,6 +50,9 @@
 		65F277D82006901C00A8F1BF /* Pino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pino.swift; sourceTree = "<group>"; };
 		68123F6F7912815E8AEC706F /* Pods-Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agenda.release.xcconfig"; path = "Target Support Files/Pods-Agenda/Pods-Agenda.release.xcconfig"; sourceTree = "<group>"; };
 		7B9F5521EACF10EC79B11643 /* Pods-Agenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agenda.debug.xcconfig"; path = "Target Support Files/Pods-Agenda/Pods-Agenda.debug.xcconfig"; sourceTree = "<group>"; };
+		8B11D1722593A64800791A8E /* LigacaoTelefonica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigacaoTelefonica.swift; sourceTree = "<group>"; };
+		8B11D1752593A8AE00791A8E /* Safari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari.swift; sourceTree = "<group>"; };
+		8B11D1782593ABB200791A8E /* Filtro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtro.swift; sourceTree = "<group>"; };
 		8B56819D2592763C00E1F55E /* AlunoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoAPI.swift; sourceTree = "<group>"; };
 		8B7F029E2592815F0032D82C /* Repositorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositorio.swift; sourceTree = "<group>"; };
 		8B7F02A1259282120032D82C /* AlunoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoDao.swift; sourceTree = "<group>"; };
@@ -203,6 +209,9 @@
 				B9EA19FA1FDEBEAD00403CE0 /* Localizacao.swift */,
 				B9D565A61FE14ECA00BDA536 /* Notificacoes.swift */,
 				658B1AA72006456B006D944C /* AutenticacaoLocal.swift */,
+				8B11D1722593A64800791A8E /* LigacaoTelefonica.swift */,
+				8B11D1752593A8AE00791A8E /* Safari.swift */,
+				8B11D1782593ABB200791A8E /* Filtro.swift */,
 			);
 			path = Componentes;
 			sourceTree = "<group>";
@@ -355,15 +364,18 @@
 				03AA176D1FC8515A003CB2B8 /* AlunoViewController.swift in Sources */,
 				8B56819E2592763C00E1F55E /* AlunoAPI.swift in Sources */,
 				65F277D92006901C00A8F1BF /* Pino.swift in Sources */,
+				8B11D1792593ABB200791A8E /* Filtro.swift in Sources */,
 				03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */,
 				03AA17561FC84154003CB2B8 /* Agenda.xcdatamodeld in Sources */,
 				A281001A1FD5C2F700E1BDF1 /* ImagePicker.swift in Sources */,
 				B911302A1FE05358002768A7 /* CalculaMediaAPI.swift in Sources */,
 				03AA17681FC843B1003CB2B8 /* HomeTableViewCell.swift in Sources */,
 				B9518EFC1FD9BCEB00EBAFA5 /* MenuOpcoesAlunos.swift in Sources */,
+				8B11D1762593A8AE00791A8E /* Safari.swift in Sources */,
 				B939B9B81FDAC2630084A557 /* Mensagem.swift in Sources */,
 				B9D565A71FE14ECA00BDA536 /* Notificacoes.swift in Sources */,
 				8B7F029F2592815F0032D82C /* Repositorio.swift in Sources */,
+				8B11D1732593A64800791A8E /* LigacaoTelefonica.swift in Sources */,
 				B9FFD4511FDEE6F700CEE593 /* MapaViewController.swift in Sources */,
 				8B7F02A2259282120032D82C /* AlunoDao.swift in Sources */,
 				03AA174E1FC84154003CB2B8 /* AppDelegate.swift in Sources */,
